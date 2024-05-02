@@ -3,14 +3,14 @@
 :root {
     --primary-color: #396e94;
     --secondary-color: #e7c24f;
-    --accent-color: #008000; /* Changed from red to green */
-    --additional-accent-color: #381d2a;
+    --accent1-color: #008000; /* Changed from red to green */
+    --accent2-color: #381d2a;
     --heading-font: "Alex Brush", cursive;
     --paragraph-font: "Open Sans", sans-serif;
-    --nav-bg-color: var(--secondary-color);
+    --nav-background-color: var(--secondary-color);
     --nav-link-color: #000; /* Black */
     --nav-hover-link-color: #fff; /* White */
-    --nav-hover-bg-color: var(--primary-color);
+    --nav-hover-backgroung-color: var(--primary-color);
 }
 
 body {
@@ -32,3 +32,26 @@ header {
 p {
     padding: 20px;
 }
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+  
