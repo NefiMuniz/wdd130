@@ -3,14 +3,14 @@
 :root {
     --primary-color: #396e94;
     --secondary-color: #e7c24f;
-    --accent1-color: #008000; /* Changed from red to green */
+    --accent1-color: #008000;
     --accent2-color: #381d2a;
     --heading-font: "Alex Brush", cursive;
     --paragraph-font: "Open Sans", sans-serif;
     --nav-background-color: var(--secondary-color);
-    --nav-link-color: #000; /* Black */
-    --nav-hover-link-color: #fff; /* White */
-    --nav-hover-backgroung-color: var(--primary-color);
+    --nav-link-color: #000;
+    --nav-hover-link-color: #fff;
+    --nav-hover-background-color: var(--primary-color);
 }
 
 body {
