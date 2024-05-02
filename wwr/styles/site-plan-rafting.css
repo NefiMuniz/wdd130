@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent-color: #008000; /* Changed from red to green */
+    --additional-accent-color: #381d2a;
+    --heading-font: "Alex Brush", cursive;
+    --paragraph-font: "Open Sans", sans-serif;
+    --nav-bg-color: var(--secondary-color);
+    --nav-link-color: #000; /* Black */
+    --nav-hover-link-color: #fff; /* White */
+    --nav-hover-bg-color: var(--primary-color);
+}
+
+body {
+    font-family: var(--parahraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #396e94;
+}
+
+header {
+    padding: 20px;
+    background-color: #e7c24f;
+}
+
+p {
+    padding: 20px;
+}
