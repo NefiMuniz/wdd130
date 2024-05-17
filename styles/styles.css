@@ -45,7 +45,7 @@ img {
 }
 
 p {
-    padding: 0;
+    padding: 20px;
 }
 
 main {
@@ -61,6 +61,7 @@ main img {
     margin-left: 20px;
     width: 150px;
     height: auto;
+    margin: 2rem 0 1rem 1rem;
 }
 
 /* Class Selectors */
