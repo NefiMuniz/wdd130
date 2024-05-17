@@ -71,6 +71,7 @@ main img {
     background-color: lightgray;
     color: #333;
     border: 1px solid red;
+    text-align: left;
 }
 .indent {
     padding-left: 2rem;
@@ -82,6 +83,7 @@ main img {
 
 aside {
     position: relative;
+    height: 80%;
     margin: 0;
     padding: 0;
     width: 20rem;
