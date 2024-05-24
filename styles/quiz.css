@@ -46,11 +46,6 @@ label {
     color: #ccc;
 }
 
-.radio-group label {
-    display: flex;
-    margin: 10px;
-}
-
 input[type="text"],
 input[type="number"],
 textarea,
@@ -64,7 +59,10 @@ select {
     background-color: #555;
     color: #eee;
 }
-
+input[type="text"]{
+    margin-left: 10px;
+    width: 95%;
+}
 textarea {
     margin-left: 10px;
     width: 95%;
