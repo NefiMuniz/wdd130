@@ -324,3 +324,71 @@ label[for="message"] {
     padding: 10px;
     text-align: center;
 }
+
+/* Home Page CSS */
+.home-hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+}
+
+.home-hero-message {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.home-history, .home-offerings, .home-newsletter {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #c7972f;
+    border-radius: 10px;
+}
+
+.home-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.home-grid-item {
+    background-color: #c7972f;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.home-grid-item img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.home-newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-newsletter input[type="text"],
+.home-newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.home-newsletter button {
+    align-self: flex-start;
+    padding: 10px 20px;
+}
