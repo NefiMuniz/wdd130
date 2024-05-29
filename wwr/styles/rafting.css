@@ -347,7 +347,6 @@ label[for="message"] {
     border-radius: 10px;
 }
 
-
 .home-history, .home-offerings, .home-newsletter {
     margin: 20px 0;
     padding: 20px;
@@ -357,20 +356,31 @@ label[for="message"] {
 
 .home-grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
+    text-align: center;
 }
 
-.home-grid-item {
+.home-grid-header {
+    grid-column: span 2;
+    text-align: center;
+}
+
+/* .home-grid-item {
     background-color: #c7972f;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-}
+} */
 
 .home-grid-item img {
-    width: 50%;
+    width: 100%;
     border-radius: 10px;
+}
+
+.home-grid-footer {
+    grid-column: span 2;
+    text-align: center;
 }
 
 .home-newsletter form {
