@@ -275,3 +275,52 @@ label[for="message"] {
     display: block;
     text-align: start;
 }
+
+/* Trips CSS */
+.call-to-action {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.trip-descriptions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trip {
+    background-color: #c7972f;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+.trip h2 {
+    color: #07059b;
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trip-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.trip-table h2 {
+    text-align: center;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+}
