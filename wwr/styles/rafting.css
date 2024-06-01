@@ -342,6 +342,7 @@ label[for="message"] {
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #00c6fb;
     background-color: rgba(0, 0, 0, 0.808);
     padding: 20px;
     border-radius: 10px;
@@ -350,7 +351,7 @@ label[for="message"] {
 .home-history, .home-offerings, .home-newsletter {
     margin: 20px 0;
     padding: 20px;
-    background-color: #c7972f;
+    background-color: #ecc46c;
     border-radius: 10px;
 }
 
